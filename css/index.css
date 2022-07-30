@@ -23,6 +23,7 @@ background: #051027;
 .nav-head > .img-container{
     padding-top: 10px;
     padding-left: 1rem;
+    cursor: pointer;
 }
 
 .menu-btn {
@@ -201,25 +202,30 @@ main > .img-container{
     align-items: center;
     padding-top: 1rem;
     width: 100%;
+    flex-direction: row;
 }
 main>.img-container > .first-img{
     width: 250px;
     height: 250px;
     animation: rotation 20s infinite linear;
 }
+main>.img-container > .first-im{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    width: 150px;
+    height: 150px;
+}
+
 .sign-up{
-    display: flex;
-justify-content: center;
-align-items: center;
-padding: 15px 14px;
-margin: 1rem 0;
-width: 10rem;
-height: 40px;
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-cursor: pointer;
-color: #FFFFFF;
-background: #2EA44F;
-border-radius: 5px;
+    margin: 1rem 0;
+    width: 10rem;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #2EA44F;
+    border-radius: 5px;
 }
